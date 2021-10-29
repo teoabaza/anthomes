@@ -1,0 +1,466 @@
+body {
+    font-family: "Segoe UI", "Trebuchet MS", sans-serif;
+    margin: 0;
+}
+
+a { 
+    color: inherit;
+    text-decoration: none;
+} 
+
+header {
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+
+.logotitle {
+    display: inline-flex;
+    text-align: center;
+    background-image: url("../images/backgr.svg");
+    width: 60%;
+}
+
+.logotitle img {
+    width: 25%;
+    height: 50%;
+    padding: 5% 0 0 5%;
+}
+
+.logotitle h1 {
+    font-size: 3.5rem;
+    font-weight: 200;
+    color: #104a61;
+    padding: 2%;
+    text-shadow: 2px 2px 10px rgb(162, 234, 247);
+    font-family: "Futura", Tahoma, sans-serif;
+}
+
+#home:hover {
+    color: #236e8b;
+    text-shadow: 2px 2px 10px #1fdbdb;
+} 
+
+.headerimg {
+    background-color:#f78484;
+    width:20%;
+    padding-right: 5%;
+}
+
+.headerimg img {
+    max-width: 100%;
+    padding-left: 10%;
+}
+
+.menu {
+    background-color: #f78484;
+    width: 20%;
+}
+
+.menu img {
+    width: 30%;
+    margin: 10% 0 0 35%;
+}
+
+.menu img:hover {
+    width: 35%;
+}
+
+nav ul {
+    width:90%;
+    color: white;
+    list-style: none;
+    font-size: 2rem;
+    margin: 0 5% 0 10%;
+    text-shadow: 2px 2px 10px rgb(175, 135, 143);
+}
+
+nav ul li:hover {
+    text-shadow: 2px 2px 25px rgb(112, 6, 64);
+}
+
+.searchbar {
+    height: 30%;
+    background-color: #104a61;
+    color: white;
+    margin: 0;
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+#locations {
+    background-color: #d6ebf0;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+#bedrooms {
+    background-color: #d6ebf0;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.searchbar p {
+    background-color: white;
+    color: #104a61;
+    border-radius: 30px;
+    font-size: 1.7rem;
+    padding: 20px 30px;
+    text-shadow: 2px 2px 25px #333;
+    box-shadow: 2px 2px 25px #333;
+}
+
+.searchbar p:hover {
+    padding: 30px 40px;
+}
+
+.searchbar p:active {
+    padding: 30px 40px;
+    background-color: #f78484;
+}
+
+.nowletting {
+    background-image: url("../images/banner.jpeg");
+    height:450px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nowletting h1 {
+    font-size: 4rem;
+    color: white;
+    text-shadow: 2px 2px 25px #333;
+}
+
+.blog {
+    margin: 30px 0 15px 0;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #293033;
+}
+
+.blogentries {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.blog1 p {
+    max-width: 350px;
+}
+
+#peekingant {
+    height: 120px;
+    padding-left: 20%;
+    display: none;
+}
+
+.studentacc {
+    display: flex;
+    background-color: #a8d8e3;
+    color: #293033;
+    height:50%;
+    align-items: center;
+}
+
+.studentacc img {
+    width: 30%;
+    margin: 0
+}
+
+.studentacc .text{
+    font-size: 1.3rem;
+    padding-right: 5%;
+    text-align: justify;
+}
+
+.text h2 {
+    background-color: white;
+    color: #104a61;
+    border-radius: 10px;
+    font-size: 1.7rem;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.testimonials {
+    background-color: #f78484;
+    color: white;
+    text-align: center;
+    height:35%;
+    font-size: 1.2rem;
+    padding: 20px 0;
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.testimonials p {
+    max-width: 80%;
+    padding-left: 10%;
+}
+
+.testimonials img {
+    width: 100%;
+    display: none;
+}
+
+footer {
+    background-color: #104a61;
+    color:seashell;
+    padding: 10px 20px;
+    display: flex;
+}
+
+.footerleft {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.contact {
+    font-size: 1.3rem;
+    width: 100%;
+    margin-bottom: 7%;
+}
+
+.address, .phone, .message {
+    display: inline-flex;
+}
+
+.address img, .phone img, .message img {
+    width: 10%;
+    height: 10%;
+    padding-right:5%;
+}
+
+.privpol {
+    padding-top: 10%;
+}
+
+#footerpic {
+    width: 60%;
+}
+
+/*responsive design for smaller screens*/
+
+@media only screen and (max-width: 480px) {
+    header {
+        flex-direction: column;
+    }
+    .logotitle img{
+        width: 30%;
+        padding-bottom: 5%;
+     }
+    .logotitle {
+        width: 100%;
+     }
+    .logotitle h1 {
+        width: 70%;
+        font-size: 2rem;
+     }
+    .menu {
+        width: 100%;
+        padding-left: 0;
+     }
+    .menu img {
+        display: none;
+     }
+     .menu nav ul {
+        margin: 0;
+     }
+
+    .headerimg {
+        display: none;
+    }
+    .searchbar {
+        height: 300px;
+        flex-direction: column;
+    }
+    .nowletting {
+        text-align: center;
+        padding: 5%;
+    }
+    .blogentries {
+        flex-direction: column;
+    }
+    .blogentries p {
+        max-width: 100%;
+        background-color: #dad6d6;
+    }
+    #peekingant {
+        display: block;
+    }
+    .studentacc {
+        padding: 5%;
+        text-align: center;
+    }
+    .studentacc img {
+        display: none;
+    }
+    .testimonials img {
+        display: block;
+    }
+    #footerpic{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 680px) {
+    header {
+        flex-direction: column;
+        background-color: #f78484;
+    }
+    .logotitle img {
+        width: 30%;
+        padding-bottom: 5%;
+    }
+    .logotitle {
+        width: 100%;
+    }
+    .logotitle h1 {
+        width: 70%;
+        font-size: 3rem;
+    }
+    .menu {
+        display: inline-flex;
+        flex-direction: row;
+        width: 80%;
+        align-items: center;
+    }
+    nav ul {
+        margin: 0 10% 0 0;
+    }
+    .menu img {
+        width: 60%;
+        padding: 0;
+    }
+    .menu img:hover{
+        width: 70%;
+    }
+    .headerimg {
+        display: none;
+    }
+    .searchbar {
+        height: 300px;
+        flex-direction: column;
+    }
+    .nowletting {
+        text-align: center;
+        padding: 5%;
+    }
+    .blogentries {
+        flex-direction: column;
+    }
+    .blogentries p {
+        max-width: 100%;
+        background-color: #dad6d6;
+    }
+    #peekingant {
+        display: block;
+    }
+    .studentacc {
+        padding: 5%;
+        text-align: center;
+    }
+    .studentacc img {
+        display: none;
+    }
+    .testimonials img {
+        display: block;
+    }
+    #footerpic{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 680px) and (max-width: 900px) {
+    .logotitle {
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
+    .logotitle img {
+        width: 50%;
+    }
+    .logotitle h1 {
+        width: 95%;
+        font-size: 2rem;
+    }
+    .headerimg {
+        display: none;
+    }
+    .menu {
+        width: 50%;
+    }
+    .menu img {
+        width: 20%;
+    }
+    .menu img:hover {
+        width: 25%;
+    }
+    .searchbar {
+        height: 300px;
+        flex-direction: column;
+    }
+    .nowletting {
+        text-align: center;
+        padding: 5%;
+    }
+    .blogentries {
+        flex-direction: column;
+    }
+    .blogentries p {
+        max-width: 100%;
+        background-color: #dad6d6;
+    }
+    #peekingant {
+        display: block;
+    }
+    .studentacc {
+        padding: 5%;
+        text-align: center;
+    }
+    .studentacc img {
+        display: none;
+    }
+    .testimonials img {
+        display: block;
+    }
+    #footerpic{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1100px) {
+    .logotitle {
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       width: 60%;
+    }
+    .logotitle img {
+        width: 50%;
+    }
+    .logotitle h1 {
+        width: 95%;
+        font-size: 2rem;
+    }
+    .searchbar {
+        padding: 5%;
+    }
+    .blog2 {
+        display: none;
+    }
+    #footerpic {
+        height: 60%;
+    }
+}

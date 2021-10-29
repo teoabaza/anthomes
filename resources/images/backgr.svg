@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="360px" height="271px" viewBox="0 0 360 271" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Group 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 1170 0 1170 1968 0 1968"></polygon>
+        <path d="M8.705,6.705 C8.31551495,7.09448505 8.31517069,7.72585884 8.70423077,8.11576839 L12.58,12 L12.58,12 L8.70423077,15.8842316 C8.31517069,16.2741412 8.31551495,16.905515 8.705,17.295 C9.09436075,17.6843607 9.72563925,17.6843607 10.115,17.295 L15.41,12 L15.41,12 L10.115,6.705 C9.72563925,6.31563925 9.09436075,6.31563925 8.705,6.705 Z" id="path-3"></path>
+        <polygon id="path-5" points="0 0 360 0 360 276 0 276"></polygon>
+        <filter x="-0.7%" y="-0.8%" width="101.6%" height="101.8%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="03-Starter-Templates" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Case-Study-Archive" transform="translate(-930.000000, -532.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1440" height="3200"></rect>
+            <rect id="Background" fill="#F9F9F9" x="0" y="433" width="1440" height="2314"></rect>
+            <rect id="Background" fill="#F9F9F9" x="0" y="433" width="1440" height="2314"></rect>
+            <g id="Group" transform="translate(150.000000, 532.000000)">
+                <g id="#1-2">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Duplicate-control"></g>
+                    <g id="Organisms-/-Blog-/-#1" mask="url(#mask-2)">
+                        <g transform="translate(780.000000, 0.000000)">
+                            <g id="Atoms-/-Cards-/-Empty" fill="none" fill-rule="evenodd">
+                                <rect id="Rectangle-4" fill="#FFFFFF" x="0" y="0" width="360" height="452" rx="6"></rect>
+                            </g>
+                            <text id="Post-title" fill="none" font-family="AbrilFatface-Regular, Abril Fatface" font-size="21" font-weight="700" line-spacing="31">
+                                <tspan x="20" y="337" fill="#293033">Appointment Generation for </tspan>
+                                <tspan x="20" y="368" fill="#293033">National Training Provider</tspan>
+                            </text>
+                            <text id="Date" fill="none" font-family="Tahoma" font-size="14" font-weight="normal" line-spacing="21">
+                                <tspan x="20" y="298" fill="#A1AEB7">16 Dec 2019</tspan>
+                            </text>
+                            <rect id="Background" fill="#A8D8E3" fill-rule="evenodd" x="0" y="0" width="360" height="271"></rect>
+                            <text id="Lorem-Ipsum" fill="none" font-family="Tahoma" font-size="14" font-weight="normal" line-spacing="21">
+                                <tspan x="20" y="416" fill="#A1AEB7">View Article</tspan>
+                            </text>
+                            <g id="Atoms-/-icons-/-System-/-Chevron_right" fill="none" transform="translate(100.000000, 402.000000)">
+                                <mask id="mask-4" fill="white">
+                                    <use xlink:href="#path-3"></use>
+                                </mask>
+                                <use id="Mask" fill-opacity="0.7" fill="#000000" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                <g id="Atoms-/-Colors-/-Gray-#2" mask="url(#mask-4)" fill="#104A61" fill-rule="evenodd">
+                                    <rect id="Atoms-/-Colors-/-Black" x="0" y="0" width="24" height="24"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-20" opacity="0.544852121" transform="translate(930.000000, 532.000000)">
+                <mask id="mask-6" fill="white">
+                    <use xlink:href="#path-5"></use>
+                </mask>
+                <g id="Mask"></g>
+                <g filter="url(#filter-7)" opacity="0.0507114955" mask="url(#mask-6)">
+                    <g transform="translate(-1217.000000, -599.000000)">
+                        <g id="Group-18" transform="translate(0.000000, 513.000000)"></g>
+                        <g id="Group-19" transform="translate(537.000000, 0.000000)">
+                            <g id="Group-18" transform="translate(0.000000, 200.000000)">
+                                <g id="Group-17" stroke="#104A61" stroke-width="15">
+                                    <g id="Group-16-Copy" transform="translate(213.000000, 0.000000)">
+                                        <g id="Group-14" transform="translate(217.000000, 224.000000)">
+                                            <g id="Group-12">
+                                                <g id="Group-7" transform="translate(167.000000, 109.000000) rotate(-315.000000) translate(-167.000000, -109.000000) translate(89.000000, 33.000000)">
+                                                    <polyline id="Path-2-Copy-2" transform="translate(117.667262, 75.646447) rotate(-360.000000) translate(-117.667262, -75.646447) " points="79.6672619 0.146446609 155.667262 75.6464466 79.6672619 151.146447"></polyline>
+                                                </g>
+                                            </g>
+                                            <g id="Group-12" transform="translate(110.000000, 112.000000)">
+                                                <g id="Group-7" transform="translate(167.000000, 109.000000) rotate(-315.000000) translate(-167.000000, -109.000000) translate(89.000000, 33.000000)">
+                                                    <polyline id="Path-2-Copy-2" transform="translate(117.667262, 75.646447) rotate(-360.000000) translate(-117.667262, -75.646447) " points="79.6672619 0.146446609 155.667262 75.6464466 79.6672619 151.146447"></polyline>
+                                                    <polyline id="Path-2-Copy-3" transform="translate(38.471302, 75.646447) rotate(-360.000000) translate(-38.471302, -75.646447) " points="0.471302397 0.146446609 76.4713024 75.6464466 0.471302397 151.146447"></polyline>
+                                                </g>
+                                                <g id="Group-7-Copy" transform="translate(109.000000, 264.000000) rotate(-315.000000) translate(-109.000000, -264.000000) translate(31.000000, 188.000000)">
+                                                    <polyline id="Path-2-Copy-2" transform="translate(117.667262, 75.646447) rotate(-360.000000) translate(-117.667262, -75.646447) " points="79.6672619 0.146446609 155.667262 75.6464466 79.6672619 151.146447"></polyline>
+                                                    <polyline id="Path-2-Copy-3" transform="translate(38.471302, 75.646447) rotate(-360.000000) translate(-38.471302, -75.646447) " points="0.471302397 0.146446609 76.4713024 75.6464466 0.471302397 151.146447"></polyline>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                                <g id="Group-17" transform="translate(439.000000, 447.000000)">
+                                    <g id="Group-16" transform="translate(0.000000, 213.000000)">
+                                        <g id="Group-14">
+                                            <g id="Group-12">
+                                                <g id="Group-7" transform="translate(167.000000, 109.000000) rotate(-315.000000) translate(-167.000000, -109.000000) translate(89.000000, 33.000000)"></g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g id="Group-16-Copy" transform="translate(213.000000, 0.000000)" stroke="#104A61" stroke-width="15">
+                                        <g id="Group-14">
+                                            <g id="Group-12">
+                                                <g id="Group-7" transform="translate(167.000000, 109.000000) rotate(-315.000000) translate(-167.000000, -109.000000) translate(89.000000, 33.000000)">
+                                                    <polyline id="Path-2-Copy-2" transform="translate(117.667262, 75.646447) rotate(-360.000000) translate(-117.667262, -75.646447) " points="79.6672619 0.146446609 155.667262 75.6464466 79.6672619 151.146447"></polyline>
+                                                    <polyline id="Path-2-Copy-3" transform="translate(38.471302, 75.646447) rotate(-360.000000) translate(-38.471302, -75.646447) " points="0.471302397 0.146446609 76.4713024 75.6464466 0.471302397 151.146447"></polyline>
+                                                </g>
+                                                <g id="Group-7-Copy" transform="translate(109.000000, 264.000000) rotate(-315.000000) translate(-109.000000, -264.000000) translate(31.000000, 188.000000)">
+                                                    <polyline id="Path-2-Copy-2" transform="translate(117.667262, 75.646447) rotate(-360.000000) translate(-117.667262, -75.646447) " points="79.6672619 0.146446609 155.667262 75.6464466 79.6672619 151.146447"></polyline>
+                                                    <polyline id="Path-2-Copy-3" transform="translate(38.471302, 75.646447) rotate(-360.000000) translate(-38.471302, -75.646447) " points="0.471302397 0.146446609 76.4713024 75.6464466 0.471302397 151.146447"></polyline>
+                                                </g>
+                                            </g>
+                                            <g id="Group-12" transform="translate(110.000000, 112.000000)">
+                                                <g id="Group-7" transform="translate(167.000000, 109.000000) rotate(-315.000000) translate(-167.000000, -109.000000) translate(89.000000, 33.000000)">
+                                                    <polyline id="Path-2-Copy-2" transform="translate(117.667262, 75.646447) rotate(-360.000000) translate(-117.667262, -75.646447) " points="79.6672619 0.146446609 155.667262 75.6464466 79.6672619 151.146447"></polyline>
+                                                    <polyline id="Path-2-Copy-3" transform="translate(38.471302, 75.646447) rotate(-360.000000) translate(-38.471302, -75.646447) " points="0.471302397 0.146446609 76.4713024 75.6464466 0.471302397 151.146447"></polyline>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="Group-18" transform="translate(642.000000, 0.000000)">
+                                <g id="Group-17">
+                                    <g id="Group-16" transform="translate(0.000000, 213.000000)" stroke="#104A61" stroke-width="15">
+                                        <g id="Group-14">
+                                            <g id="Group-12" transform="translate(110.000000, 112.000000)">
+                                                <g id="Group-7-Copy" transform="translate(109.000000, 264.000000) rotate(-315.000000) translate(-109.000000, -264.000000) translate(31.000000, 188.000000)">
+                                                    <polyline id="Path-2-Copy-2" transform="translate(117.667262, 75.646447) rotate(-360.000000) translate(-117.667262, -75.646447) " points="79.6672619 0.146446609 155.667262 75.6464466 79.6672619 151.146447"></polyline>
+                                                    <polyline id="Path-2-Copy-3" transform="translate(38.471302, 75.646447) rotate(-360.000000) translate(-38.471302, -75.646447) " points="0.471302397 0.146446609 76.4713024 75.6464466 0.471302397 151.146447"></polyline>
+                                                </g>
+                                            </g>
+                                        </g>
+                                        <g id="Group-14" transform="translate(217.000000, 224.000000)">
+                                            <g id="Group-12">
+                                                <g id="Group-7" transform="translate(167.000000, 109.000000) rotate(-315.000000) translate(-167.000000, -109.000000) translate(89.000000, 33.000000)">
+                                                    <polyline id="Path-2-Copy-2" transform="translate(117.667262, 75.646447) rotate(-360.000000) translate(-117.667262, -75.646447) " points="79.6672619 0.146446609 155.667262 75.6464466 79.6672619 151.146447"></polyline>
+                                                </g>
+                                                <g id="Group-7-Copy" transform="translate(109.000000, 264.000000) rotate(-315.000000) translate(-109.000000, -264.000000) translate(31.000000, 188.000000)">
+                                                    <polyline id="Path-2-Copy-2" transform="translate(117.667262, 75.646447) rotate(-360.000000) translate(-117.667262, -75.646447) " points="79.6672619 0.146446609 155.667262 75.6464466 79.6672619 151.146447"></polyline>
+                                                    <polyline id="Path-2-Copy-3" transform="translate(38.471302, 75.646447) rotate(-360.000000) translate(-38.471302, -75.646447) " points="0.471302397 0.146446609 76.4713024 75.6464466 0.471302397 151.146447"></polyline>
+                                                </g>
+                                            </g>
+                                            <g id="Group-12" transform="translate(110.000000, 112.000000)">
+                                                <g id="Group-7" transform="translate(167.000000, 109.000000) rotate(-315.000000) translate(-167.000000, -109.000000) translate(89.000000, 33.000000)">
+                                                    <polyline id="Path-2-Copy-3" transform="translate(38.471302, 75.646447) rotate(-360.000000) translate(-38.471302, -75.646447) " points="0.471302397 0.146446609 76.4713024 75.6464466 0.471302397 151.146447"></polyline>
+                                                </g>
+                                                <g id="Group-7-Copy" transform="translate(109.000000, 264.000000) rotate(-315.000000) translate(-109.000000, -264.000000) translate(31.000000, 188.000000)">
+                                                    <polyline id="Path-2-Copy-2" transform="translate(117.667262, 75.646447) rotate(-360.000000) translate(-117.667262, -75.646447) " points="79.6672619 0.146446609 155.667262 75.6464466 79.6672619 151.146447"></polyline>
+                                                    <polyline id="Path-2-Copy-3" transform="translate(38.471302, 75.646447) rotate(-360.000000) translate(-38.471302, -75.646447) " points="0.471302397 0.146446609 76.4713024 75.6464466 0.471302397 151.146447"></polyline>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g id="Group-16-Copy" transform="translate(213.000000, 0.000000)"></g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
